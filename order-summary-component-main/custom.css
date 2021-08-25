@@ -1,0 +1,142 @@
+body, html {
+	background-image: url(images/pattern-background-desktop.svg);
+	background-repeat: repeat-x;
+	background-color: #e0e8ff;
+	font-family: 'Red Hat Display', sans-serif;
+    text-align: center;	
+    vertical-align: middle;
+}
+
+.content{
+	margin: auto;
+    width: 30%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+h1{
+    font-weight: 700;
+    font-weight: 1.8vw;
+
+}
+
+p{  
+    font-weight: 400;
+    width: 70%;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    margin: auto;
+    color: #9a9da6;
+}
+
+.illustration-hero{
+    border-radius: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.middle-container{
+    border-radius: 10px;
+    width: 75%;
+    background: hsl(225, 100%, 98%);
+    margin : 3% auto auto auto;
+    font-size: 1vw;
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+  	grid-auto-rows: minmax(100%, auto);
+}
+
+
+.icon-music{
+	grid-column: 1;
+  	padding: 15%;
+	margin-top: 10%;
+
+}
+.icon-music img{
+	width: 100%;
+  	height: auto;
+  	max-width: 100%;
+}
+
+.middle-container-text{
+	grid-column: 2;
+}
+
+
+.middle-container-text .annual-plan{
+	font-size: 1.2vw;
+	white-space: nowrap;
+	float:left;
+	margin-top: 30%;
+
+}
+
+.middle-container-text .prix{
+	font-size: 1.2vw;
+	white-space: nowrap;
+	float:left;
+}
+
+
+.change {
+	grid-column: 3;
+	font-weight: bold;
+	color : #443d9d; 	
+	text-decoration: underline;
+	font-size: 1.2vw;
+	padding:10%;	
+	margin-top: 30%;
+
+}
+.change a:hover	{
+	transition:all 0.3s ease-out;
+	letter-spacing: .75px;
+}
+
+.bottom-container-1{
+	border-radius:10px;
+	background-color: #382ae1;
+	width: 75%;
+	margin : 5% auto auto auto;
+	box-shadow:  0px 10px 26px 11px rgba(197,193,222,0.72);
+}
+
+.bottom-container-1 a{
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1vw;
+	display: block;
+	padding: 10px;
+  	margin-top: 7px;
+}
+
+.bottom-container-1:hover{
+	
+	transition: all 0.3s ease-out;
+	letter-spacing: .5px;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
+
+.bottom-container-2{
+	padding-top: 5%;
+	padding-bottom: 7%;
+	}
+
+.bottom-container-2 a{
+	color:#79809b;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1vw;
+
+}
+.bottom-container-2 a:hover{
+	transition: all 0.3s ease-out;
+	letter-spacing: .5px;
+	text-decoration: underline;
+	text-decoration-color: #79809b;
+
+}
